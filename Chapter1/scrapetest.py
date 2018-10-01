@@ -9,7 +9,7 @@ def getTitle(url):
         return None
     try:
         bs = BeautifulSoup(html.read(), 'html.parser')
-        title = bs.body.h1
+        content = bs.body.h1
     except AttributeError as e:
         return None
     return title
