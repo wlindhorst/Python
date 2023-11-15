@@ -24,22 +24,24 @@
 nearby_people = {"Rolf", "Jen", "Anna"}
 user_friends = set()  # This is an empty set, like {}
  
-friend = input("Enter your friend name to see if he is nearby: ")
+# friend = input("Enter your friend name to see if he is nearby: ")
+text = "34cm"
+result = text.endswith('cm')
+print(result)
+# # Add the friend to the user_friends set
+# user_friends.add(friend)
  
-# Add the friend to the user_friends set
-user_friends.add(friend)
- 
-# Print out the friends that are nearby... those which are in both sets!
-print(user_friends.intersection(nearby_people))
+# # Print out the friends that are nearby... those which are in both sets!
+# print(user_friends.intersection(nearby_people))
 
-# create a set of integer type
-student_id = {112, 114, 116, 118, 115}
-print('Student ID:', student_id)
+# # create a set of integer type
+# student_id = {112, 114, 116, 118, 115}
+# print('Student ID:', student_id)
 
-# create a set of string type
-vowel_letters = {'a', 'e', 'i', 'o', 'u'}
-print('Vowel Letters:', vowel_letters)
+# # create a set of string type
+# vowel_letters = {'a', 'e', 'i', 'o', 'u'}
+# print('Vowel Letters:', vowel_letters)
 
-# create a set of mixed data types
-mixed_set = {'Hello', 101, -2, 'Bye'}
-print('Set of mixed data types:', mixed_set)
+# # create a set of mixed data types
+# mixed_set = {'Hello', 101, -2, 'Bye'}
+# print('Set of mixed data types:', mixed_set)
